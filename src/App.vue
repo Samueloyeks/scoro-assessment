@@ -8,6 +8,8 @@
 import { ref } from 'vue';
 import Select from './components/Select.vue';
 
+console.log(import.meta.env.APP_COMPANY_ACCOUNT_ID)
+
 const people = ref([
   { name: 'Wade Cooper' },
   { name: 'Arlene Mccoy' },
