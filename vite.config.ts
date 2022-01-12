@@ -7,5 +7,9 @@ export default defineConfig({
   define: {
     "process.env": {}
   },
+  server: {
+    host: 'localhost.scoro.com',
+    port: 8080,
+},
   envPrefix: "APP_"
 });
